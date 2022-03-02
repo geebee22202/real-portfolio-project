@@ -1,0 +1,9 @@
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+h2,
+p {
+  font-family: "PT Sans", sans-serif;
+}
