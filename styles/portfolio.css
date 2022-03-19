@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 50px;
 }
 
 h3 {
@@ -30,7 +30,7 @@ p {
 }
 
 .container {
-  margin: 50px;
+  padding: 160px 50px;
 }
 
 .btn-primary {
@@ -64,5 +64,25 @@ p {
 
 .selfie {
   max-width: 50%;
-  border-radius: 150%;
+  border-radius: 50%;
+  
+}
+
+.about {
+  background-color: var(--branding-color);
+  padding: 30px;
+}
+
+.about p {
+  line-height: 1.7;
+  font-size: 19px;
+}
+
+.about h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.about-content {
+  padding-left: 50px;
 }
