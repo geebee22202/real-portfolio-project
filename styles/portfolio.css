@@ -5,8 +5,7 @@
 body {
   background-color: black;
   color: #fff;
-  margin-top: 200px;
-  margin-left: 150px;
+
 }
 
 h1 {
@@ -28,6 +27,10 @@ h2,
 h3,
 p {
   font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  margin: 50px;
 }
 
 .btn-primary {
@@ -57,4 +60,9 @@ p {
   border: 2px solid var(--branding-color);
   border-radius: 5px;
   padding: 15px 25px;
+}
+
+.selfie {
+  max-width: 50%;
+  border-radius: 150%;
 }
