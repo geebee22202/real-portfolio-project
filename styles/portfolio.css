@@ -29,6 +29,17 @@ p {
   font-family: "PT Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i {
+  font-size: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+}
+
 .container {
   padding: 160px 50px;
 }
@@ -65,6 +76,7 @@ p {
 .selfie {
   max-width: 50%;
   border-radius: 50%;
+  padding-left: 50px;
   
 }
 
@@ -84,5 +96,37 @@ p {
 }
 
 .about-content {
-  padding-left: 50px;
+  padding-right: 80px;
+}
+
+.contact {
+  background-color: var(--branding-color);
+  padding: 30px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+  
+  .hero h2 {
+    font-size: 30px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .contact {
+    margin-top: 50px;
+  }
+
+  .project-screenshot {
+    display: none;
+  }
+
+  .btn-secondary {
+    margin-bottom: 40px;
+  }
+
 }
