@@ -40,7 +40,36 @@ i {
   padding-right: 30px;
 }
 
-.container {
+ul {
+  margin-top: 90px;
+}
+.nav {
+  padding: 20px 0;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.nav-link {
+  font-size: 20px;
+  padding: 20px !important; 
+  color: var(--branding-color) !important;
+}
+
+/* .custom-toggler .navbar-toggler-icon,
+.navbar-toggler,
+.navbar-collapse.nav
+.navbar-nav,
+.navbar-collapse,
+.nav-item {
+  color: var(--branding-color) !important;
+} */
+
+
+.container-content {
   padding: 160px 50px;
 }
 
@@ -104,6 +133,12 @@ i {
   padding: 30px;
 }
 
+.logo {
+  max-height: 250px;
+
+
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 60px;
@@ -113,7 +148,7 @@ i {
     font-size: 30px;
   }
 
-  .container {
+  .container-content {
     text-align: center;
   }
 
@@ -127,6 +162,10 @@ i {
 
   .btn-secondary {
     margin-bottom: 40px;
+  }
+
+  .navbar {
+    padding: 20px;
   }
 
 }
