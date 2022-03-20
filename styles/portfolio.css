@@ -145,14 +145,22 @@ ul {
   padding: 20px 30px;
 }
 
-.fa {
+
+.social-link {
   display: block;
   justify-content: center;
-  padding: 20px 30px;
+  padding: 15px 20px;
+  margin: 15px;
+  border-radius: 50%;
+  background-color: #212529;
+  font-size: 20px;
+
 }
 
-.fa:hover {
+.social-link:hover,
+.social-link:focus {
   color: black; 
+  background-color: white;
 }
 
 @media (max-width: 800px) {
