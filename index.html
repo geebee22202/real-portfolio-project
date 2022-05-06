@@ -60,7 +60,9 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"><i class="fa fa-solid fa-bars"></i></span>
+        <span class="navbar-toggler-icon"
+          ><i class="fa fa-solid fa-bars"></i
+        ></span>
       </button>
       <div
         class="collapse navbar-collapse justify-content-lg-end"
@@ -106,12 +108,17 @@
               <p class="mb-5">
                 I'm Georgie, a junior software engineer based just outside of
                 DC. I began my career as a recruiter pitching amazing
-                opportunities to talented developers. Ok, yeah I was
-                a little jealous, but what started as envy, morphed into
-                intrigue until I decided to finally do something about it. I rolled up
-                my sleeves and got my own hands dirty in some code. It's been an
-                incredible ride and every bit of glass-chewing has been worth
-                it.
+                opportunities to talented developers. Ok, yeah I was a little
+                jealous, but what started as envy, morphed into intrigue until I
+                decided to finally do something about it. I rolled up my sleeves
+                and got my own hands dirty in some code.
+                <br />
+                <br />
+                I began learning in October 2021 and have completed SheCodes'
+                bootcamp covering HTML/CSS, Javascript, Responsive Web Development, and
+                React. I've also leveraged Scrimba, CodeAcademy, and Free Code
+                Bootcamp amongst many other resouces. It's been an incredible
+                ride and every bit of glass-chewing has been worth it.
               </p>
             </div>
           </div>
@@ -126,73 +133,102 @@
               <li>effective communication</li>
               <li>problem-solving</li>
             </ul>
+            <img src="/images/coding.jpg" alt="woman coding" class="rounded"/>
           </div>
         </div>
       </div>
 
-      <div class="projects p-5" id="projects">
+      <div class="projects" id="projects">
         <h2 class="pb-4">projects</h2>
-        <div class="row mb-5">
-          <div class="col-6">
+        <div class="row project-images">
+          <div class="col-3">
             <img
-              src="/images/weather-app-sc1.png"
-              alt="screenshot from weather app"
-              class="project-screenshot img-fluid rounded"
+              src="/images/google-keep-clone-app.png"
+              alt="screenshot from google keep clone app"
+              class="project-screenshot project-screenshot-keep img-fluid rounded"
             />
           </div>
-          <div class="col-lg-6">
-            <h3 class="mb-lg-5 mb-3">weather app</h3>
-            <p class="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+          <div class="col-3">
+            <img
+              src="/images/weather-app.png"
+              alt="screenshot from weather app"
+              class="project-screenshot img-fluid mb-5 rounded"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="/images/dictionary-app.png"
+              alt="screenshot from dictionary app"
+              class="project-screenshot project-screenshot-dictionary img-fluid mb-5 rounded"
+            />
+          </div>
+        </div>
+        <div class="row text-center project-descriptions">
+          <div class="col-lg-3">
+            <h3 class="mb-lg-2">google keep clone app</h3>
+            <p>Built with html, css, and javascript; hosted on Netlify.</p>
             <a
-              href="https://friendly-turing-fc1af4.netlify.app/"
-              class="btn btn-secondary"
+              href="https://github.com/geebee22202/google-keep-clone"
+              class="btn btn-secondary mb-5"
               target="_blank"
+              rel="noreferrer"
             >
-              Learn more
+              github
+            </a>
+            <a
+              href="https://elaborate-tapioca-d96974.netlify.app"
+              class="btn btn-primary mb-5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              view app
             </a>
           </div>
-        </div>
-        <div class="row mb-5">
-          <div class="col-6">
-            <img
-              src="/images/weather-app-sc1.png"
-              alt="screenshot from weather app"
-              class="project-screenshot img-fluid mb-5 rounded"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h3 class="mb-lg-5 mb-3">weather app</h3>
-            <p class="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+          <div class="col-lg-3">
+            <h3 class="mb-lg-2">weather app</h3>
+            <p>
+              Built with html, css, bootstrap, javascript, and react; hosted on
+              Netlify.
             </p>
-            <a href="" class="btn btn-secondary"> Learn more </a>
+            <a
+              href="https://github.com/geebee22202/react-weather-app-final"
+              class="btn btn-secondary mb-5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github
+            </a>
+              <a
+              href="https://deluxe-halva-b9aa60.netlify.app"
+              class="btn btn-primary mb-5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              view app
+            </a>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-6">
-            <img
-              src="/images/weather-app-sc1.png"
-              alt="screenshot from weather app"
-              class="project-screenshot img-fluid mb-5 rounded"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h3 class="mb-lg-5 mb-3">weather app</h3>
-            <p class="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+          <div class="col-lg-3">
+            <h3 class="mb-lg-2">dictionary app</h3>
+            <p>
+              Built with html, css, bootstrap, javascript, and react; hosted on
+              Netlify.
             </p>
-            <a href="" class="btn btn-secondary"> Learn more </a>
+            <a
+              href="https://github.com/geebee22202/dictionary-project"
+              class="btn btn-secondary mb-5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github
+            </a>
+              <a
+              href="https://calm-starburst-045b46.netlify.app"
+              class="btn btn-primary mb-5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              view app
+            </a>
           </div>
         </div>
       </div>
