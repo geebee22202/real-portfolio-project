@@ -8,10 +8,10 @@
 
 body {
   background-color: #ededed;
+  font-family: "Chivo", sans-serif;
 }
 h1 {
-  font-family: "Quicksand", sans-serif;
-  font-weight: bold;
+  font-family: "Alfa Slab One", cursive;
   font-size: 76px;
   line-height: 1;
   color: var(--primary-accent-color);
@@ -24,12 +24,6 @@ h2 {
 
 h3 {
   font-size: 30px;
-}
-
-h2,
-h3,
-p {
-  font-family: "Radio Canada", sans-serif;
 }
 
 a,
@@ -178,6 +172,11 @@ img {
   max-width: 300px;
 }
 
+.dev-logo {
+  font-size: 80px;
+  padding: 50px 10px;
+  margin-bottom: 10px;
+}
 .collapse {
   padding: 20px 30px;
 }
@@ -190,7 +189,6 @@ img {
 .projects p {
   color: #666666;
 }
-
 
 .project-screenshot {
   box-shadow: 5px 5px 20px rgba(22, 22, 22, 0.4);
@@ -266,6 +264,7 @@ img {
 
   .about {
     text-align: center;
+    padding: 20px;
   }
 
   .skills {
